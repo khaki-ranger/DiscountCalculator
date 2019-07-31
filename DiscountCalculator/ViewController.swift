@@ -102,5 +102,10 @@ class ViewController: UIViewController {
         }
     }
     
+    // 割引計算結果画面から戻ってきたときの処理
+    @IBAction func restart(_ segue: UIStoryboardSegue) {
+        priceField.text = "0" // 金額フィールドを0でクリアする
+    }
+    
 }
 

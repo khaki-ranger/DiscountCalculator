@@ -131,6 +131,9 @@
                                 <rect key="frame" x="16" y="400" width="288" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="10%引きする"/>
+                                <connections>
+                                    <segue destination="GSO-jr-SCh" kind="modal" id="V9u-fV-Uy3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -169,6 +172,9 @@
                                 <rect key="frame" x="16" y="150" width="288" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="別の計算をする"/>
+                                <connections>
+                                    <segue destination="gur-SD-ssg" kind="unwind" unwindAction="restart:" id="yBI-ny-8QL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -178,6 +184,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GnQ-2z-pGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="gur-SD-ssg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="511" y="148"/>
         </scene>
