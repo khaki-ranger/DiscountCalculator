@@ -173,6 +173,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="resultField" destination="x3v-Od-qpA" id="owF-jM-qaD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GnQ-2z-pGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
