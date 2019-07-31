@@ -143,10 +143,10 @@
             </objects>
             <point key="canvasLocation" x="86.25" y="148.96333333333331"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="pI4-KH-Soa">
             <objects>
-                <viewController id="GSO-jr-SCh" sceneMemberID="viewController">
+                <viewController id="GSO-jr-SCh" customClass="ResultViewController" customModule="DiscountCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IL0-PA-ADb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
